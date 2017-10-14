@@ -1,0 +1,26 @@
+使用WHMCS官方直连下载接口
+
+下载地址类似于:
+
+https://s3.amazonaws.com/releases.whmcs.com/pkgs/whmcs-【具体版本号】-release.1.zip
+
+为了方便,写了个一键获取脚本.
+
+通过更新日志获取大版本号,再通过大版本号获取具体版本号.
+
+使用方法:
+
+获取最新版的安装包
+
+wget --no-check-certificate -qO whmcs.sh 'https://moeclub.org/attachment/LinuxShell/whmcs.sh' && chmod a+x whmcs.sh && bash whmcs.sh
+
+
+获取指定版本号的安装包(以获取7.2.3版本为例)
+
+
+wget --no-check-certificate -qO whmcs.sh 'https://moeclub.org/attachment/LinuxShell/whmcs.sh' && chmod a+x whmcs.sh && bash whmcs.sh 7.2.3
+
+
+关于开心版(不保证可用):
+
+覆盖此文件 /vendor/whmcs/whmcs-foundation/lib/License.php
