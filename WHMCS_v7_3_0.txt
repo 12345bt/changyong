@@ -1,0 +1,62 @@
+软件简介：
+
+WHMCS 是一套国外流行的域名主机管理软件，主要在用户管理、财务管理、域名接口、服务器管理面板接口等方面设计的非常人性化。WHMCS 是一套全面支持域名注册管理解析，主机开通管理，VPS 开通管理和服务器管理的一站式管理软件。
+
+特色功能：
+
+财务——支持多种货币，自动生成账单；
+自动化——在线支付、退款、自动开通域名主机；
+容易使用——界面清爽，支持多种语言（中文需下载中文翻译包）；
+产品设置——自由定义按月、按年等，可设置开通邮件；
+后台支持——完善的工单系统；
+模块——支持开通、暂停、删除、升级、解析域名等；
+自定义——支持自定义模板，CSS，订单，语言等；
+界面——前台订购页面支持多种模板选择；
+支付——支持 Paypal 等主流支付方式（支付宝等国内支付工具插件需手动集成）；
+推介——有自己的推介系统，用户通过推介连接购买推介人可以提成；
+二次开发——提供开发模板和 API 文档。
+……
+
+系统需求：
+
+– PHP Version 5.6.x 或更高
+– MySQL Version 5.5.x 或更高版本
+– Curl Support (with SSL support)
+– GD Image Library
+– ionCube Loaders 6.0.4 及更高
+
+WHMCS 安装简要步骤：
+
+1、解压缩文件（如果服务器支持解压缩，可以上传压缩包以后在线解压缩）
+2、将文件 configuration.php.new 改名为 configuration.php
+3、 把 whmcs 文件夹内的所有文件上传到网站 – 如果有问题，改用二进制上传
+4、可以任意命名安装目录（例如 billing, clients 等等）
+5、访问安装脚本进行安装 – 如果遇到了 Ioncube 相关的错误信息, 请参考安装 Ioncube 的安装步骤
+6、 按照提示安装，需要按照下面的说明修改文件夹的权限，输入 license key ，设置管理员帐户。
+7、完成以后，删除安装目录，把 configuration.php 文件的权限修改为 644
+8、需要修改权限的文件夹及文件(如果是suPHP 或 PHPSuExec不需要修改):
+/configuration.php 修改为 777 可写
+/attachments 修改为 777 可写
+/downloads 修改为 777 可写
+/templates_c 修改为 777 可写
+
+WHMCS 安装后推荐步骤
+
+1、登录管理后台，配置 General Settings (Configuration > General Settings)
+2、设置支付网关(Configuration > Payment Gateways)
+3、设置商品和服务(Configuration > Products/Services)
+4、设置域名价格(Configuration > Domain Pricing)
+5、设置工单部门(Configuration > Support Departments)
+6、设置邮件推送，从而用 WHMCS 管理邮件
+7、设置自动任务(Configuration > Automation Settings)
+8、测试各项功能是否正常
+9、设置 configuration.php 为 444 只读。
+
+WHMCS 7 原版下载
+
+文件信息
+
+文件名：whmcs-7.3.0-release.1.zip
+MD5 校验码：B9B8F0E152616DF612560899AD4302DB
+官方下载：https://s3.amazonaws.com/releases.whmcs.com/pkgs/whmcs-7.3.0-release.1.zip
+CDN下载：
