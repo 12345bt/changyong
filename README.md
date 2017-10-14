@@ -18,3 +18,11 @@ uname -r
 lsmod | grep bbr
 
 返回值有 tcp_bbr 模块即说明bbr已启动。
+
+
+客户端一键安装酸酸乳命令：
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/mmmwhy/ss-panel-and-ss-py-mu/master/ss-panel-v3-mod.sh && chmod +x ss-panel-v3-mod.sh && bash ss-panel-v3-mod.sh
+
+
+
