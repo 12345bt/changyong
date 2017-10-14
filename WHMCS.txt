@@ -24,3 +24,8 @@ wget --no-check-certificate -qO whmcs.sh 'https://moeclub.org/attachment/LinuxSh
 关于开心版(不保证可用):
 
 覆盖此文件 /vendor/whmcs/whmcs-foundation/lib/License.php
+
+
+License_v7.x下载地址：
+
+https://raw.githubusercontent.com/12345bt/changyong/master/License.tar.gz
