@@ -58,5 +58,11 @@ WHMCS 7 原版下载
 
 文件名：whmcs-7.3.0-release.1.zip
 MD5 校验码：B9B8F0E152616DF612560899AD4302DB
+
 官方下载：https://s3.amazonaws.com/releases.whmcs.com/pkgs/whmcs-7.3.0-release.1.zip
-CDN下载：
+
+CDN下载：https://cdn.long33.cn/whmcs/whmcs-7.3.0-release.tar.gz
+
+WHMCS 7 开心补丁
+
+CDN下载：https://cdn.long33.cn/whmcs/License.tar.gz
